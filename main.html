@@ -1,13 +1,22 @@
 <html>
-<head>
-	<title></title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="jscript.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div id="squareContainer">
-		
-	</div>
-</body>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"></link>
+		<title>ScratchPad</title>
+	</head>
+	<body>
+		<div class="content-wrapper">
+		<header>
+			<h3>ScratchPad</h3>
+			<p>- Hint! Move your cursor over the grid below. -</p>
+			<!-- Move this or generate a fade in & fade out? -->
+			<input class="button" id="gridSize" type="submit" value="Change Grid Size"></input>
+			<input class="button" id="colorFade" type="submit" value="Fade Colors"></input>
+			<input class="button" id="randomColor" type="submit" value="Random Colors"></input>
+			<input class="button" id="clearGrid" type="submit" value="Clear"></input>
+  		</header>
+  		</div>
+  		<div class="wrapper"></div>
+  		<script type="text/javascript" src="jscript.js"></script>
+	</body>
 </html>
